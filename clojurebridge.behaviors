@@ -1,0 +1,5 @@
+{:+ {:app [(:lt.objs.plugins/load-js "lt_clojurebridge_compiled.js")
+           :lt.objs.sidebar.workspace/workspace.open-on-start]
+     :editor.clojure [(:lt.objs.langs.clj/print-length 10000)]
+
+     :lt-clojurebridge.hello [:lt.plugins.lt-clojurebridge/on-close-destroy]}}
